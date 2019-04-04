@@ -1,0 +1,23 @@
+body{
+background-color:red;
+}
+
+     
+table{
+background-color:gold
+}
+
+
+#main-container{
+     margin: 150px auto;
+     width: 600px;
+}
+
+{
+    border-collapse: collapse;
+}
+td, th /* Asigna un borde a las etiquetas td Y th */
+{
+    border: 1px solid black;
+}
+

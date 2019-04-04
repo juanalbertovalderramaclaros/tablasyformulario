@@ -1,0 +1,11 @@
+body{
+ background:red; 
+}
+form {
+   
+    background:gold; 
+    /* Para ver el borde del formulario */
+    padding: 1em;
+    border: 5px solid black;
+    border-radius: 1em;
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charst="iso8859-1">
+<link rel="icon" type="image/png" href="../img/tablas y formularios html5.png"/>
+<link rel="stylesheet" type="text/css" href="../css/estilosformularios.css">
+<title> formulario </title>
+
+
+  </head>
+  
+<h1> Formulario </h1>
+       
+   <form action="ejemplo.php" method="get">
+
+  <p>Ingrese Su Nombre De Usuario: <input type="text" name="nombre"placeholder=" Name" size="40"></p>
+
+  <p>Ingrese Su Contrase&ntilde;a: <input type="password"placeholder=" Password"></p>
+
+  <form action="../../form-result.php" method="post" target="_blank">
+  <p>Ingrese Su Correo: <input type="email" name="direccionemail" placeholder="Ej.: sisabe@maravilla.com"></p>
+
+  <p>Ingrese Su Telefono: <input type="tel" name="telefono"placeholder=" Telefono" ></p> 
+
+  <p>Fecha de nacimiento: <input id="date" type="date"></p>
+
+<p>Ingrese Su Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+</p>
+      
+<p> 
+  Ingrese Su Nivel Educativo: 
+  <input type="checkbox" name="hm" value="h"> Primaria
+  <input type="checkbox" name="hm" value="h"> Bachiller
+  <input type="checkbox" name="hm" value="h"> Tecnico
+  <input type="checkbox" name="hm" value="h"> Tecnologo
+</p>
+
+<p>
+  Seleccione Su Pais:
+  <select id="Country">
+  <option value="ch">colombia</option>
+  <option value="fr">Francia</option>
+  <option value="de">Alemania</option>
+  <option value="nl">Países Bajos</option>
+  v<option value="ch">Suiza</option>
+  <option value="fr">Argentina</option>
+  <option value="de">Brasil</option>
+  <option value="nl">Venezuela</option>
+  <option value="ch">Peru</option>
+  <option value="fr">Uruguay</option>
+  <option value="de">Paraguay</option>
+  <option value="nl">Mexico</option>
+  v<option value="ch">Estados Unidos</option>
+  <option value="fr">Republica Dominicana</option>
+  <option value="de">Puerto Rico</option>
+  <option value="nl">Cuba</option>
+  </select></p>
+</p>
+<p>
+  Seleccione Su Color Favorito:
+  <input type="color">
+</p>
+ <p>Seleccione Categorias: </p>
+<p>
+  <select name="menu" size="5" multiple>
+  <option value="1">Indigena</option>
+  <option value="2">Afrodecendiente</option>
+  <option value="3">Indu</option>
+  <option value="4">Otro</option>
+  </select>
+</p>
+
+  <form action="../../form-result.php" method="post" enctype="multipart/form-data" target="_blank">
+
+<p>
+
+  Ingrese Su Foto De Perfil:
+
+  <input type="file" name="archivosubido">
+
+</p>
+   <p>Deja Un Mensaje:</p>
+<p>
+  <textarea name="texto" rows="4" cols="20"></textarea>
+  <p><input type="submit" value="Enviar">
+  <input type="reset" value="Borrar">
+</p>
+
+</form>
+
+
+ <a href="../index.html">inicio</a>
+                 
+                
+                 
+     
+
+</html>
+
